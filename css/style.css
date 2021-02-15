@@ -7,7 +7,7 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
-    background:url("images/ship.png");
+    background:url("../images/ship.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: scroll;
@@ -121,4 +121,9 @@ nav ul li a:hover, a.active{
 .amount{
     display: flex;
     justify-content: space-between;
+}
+.booking-text{
+    display: none;
+    color: white;
+    padding-bottom: 20px;
 }
